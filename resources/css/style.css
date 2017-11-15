@@ -1,22 +1,55 @@
 *{
   font-family: Helvetica;
-  text-align: center;
+}
+.pic{
+align-items: center;
 }
 h1{
   color:white;
   font-size: 70px;
   font-weight: bold;
+  text-align: center;
+}
+h2{
+  text-align: center;
 }
 #menu{
   font-size: 18px;
   font-weight: bold;
   color: white;
   line-height: 15px;
+  text-align: center;
 }
 .flex-container{
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
-  position: relative;
-  width: 1600px;
+  position: static;
+  width: auto;
   height: 290px;
   margin: auto;
+  text-align: center;
+}
+h3{
+  font-size: 23px;
+  text-align: center;
+}
+p{
+  font-size: 14px;
+  text-align: center;
+}
+.divider{
+  font-size: 23px;
+  color: white;
+  font-weight: bold;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  position: static;
+  width: auto;
+  height: 28px;
+  margin: auto;
+  text-align: center;
+}
+.footer{
+  text-align: left;
+  font-size: 11px;
+  color: white;
+  background-color: dimgrey;
 }
